@@ -10,7 +10,7 @@
          Application update details
 			</description>
 			<pubDate>16 June 2013</pubDate>
-			<sparkle:releaseNotesLink>http://htmlpreview.github.io/?https://raw.github.com/febret/omegalib-windows/master/update.html</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>http://febret.github.io/omegalib/update.html</sparkle:releaseNotesLink>
 			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.0.3" length="1600000" type="application/octet-stream"/>
 		</item>
 	</channel>
