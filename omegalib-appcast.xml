@@ -1,0 +1,17 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+	<channel>
+		<title>Omegalib changelog</title>
+		<link>http://febretpository.googlecode.com/svn/site/omegalib-appcast.xml</link>
+		<description>Most recent changes with links to updates.</description>
+		<language>en</language>
+		<item>
+			<title>Version 4.0.3</title>
+			<description>
+         Application update details
+			</description>
+			<pubDate>16 June 2013</pubDate>
+			<sparkle:releaseNotesLink>https://github.com/febret/omegalib/wiki/ReleaseNotes</sparkle:releaseNotesLink>
+			<enclosure url="https://dl.dropboxusercontent.com/s/aelxq9p5ofo5xgu/win32-v4.0.zip" sparkle:version="4.0.3" length="1600000" type="application/octet-stream"/>
+		</item>
+	</channel>
+</rss>
