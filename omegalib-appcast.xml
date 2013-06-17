@@ -6,11 +6,8 @@
 		<language>en</language>
 		<item>
 			<title>Version 4.0.3</title>
-			<description>
-This version fixes several regressions in 4.0.2. 
-For the full release notes check https://github.com/febret/omegalib/wiki/ReleaseNotes
-			</description>
 			<pubDate>16 June 2013</pubDate>
+			<sparkle:releaseNotesLink>http://htmlpreview.github.io/?https://raw.github.com/febret/omegalib-windows/master/update.html</sparkle:releaseNotesLink>			
 			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.0.3" length="1600000" type="application/octet-stream"/>
 		</item>
 	</channel>
