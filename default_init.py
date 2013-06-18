@@ -6,6 +6,10 @@ from euclid import *
 speedLabel = None
 mainmnu = None
 
+# add the current path to the data search paths.
+import os
+addDataPath(os.getcwd())
+
 def _setCamSpeed(speedLevel):
 	global speedLabel
 	s = 10 ** (speedLevel - 4)
