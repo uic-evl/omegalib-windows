@@ -10,7 +10,6 @@ mainmnu = None
 import os
 addDataPath(os.getcwd())
 
-
 def _setCamSpeed(speedLevel):
 	global speedLabel
 	s = 10 ** (speedLevel - 4)

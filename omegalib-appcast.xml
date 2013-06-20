@@ -8,7 +8,7 @@
 			<title>Version 4.0.3</title>
 			<pubDate>16 June 2013</pubDate>
 			<sparkle:releaseNotesLink>http://febret.github.io/omegalib/update.html</sparkle:releaseNotesLink>			
-			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.0.4" length="1600000" type="application/octet-stream"/>
+			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.0.5" length="1600000" type="application/octet-stream"/>
 		</item>
 	</channel>
 </rss>
