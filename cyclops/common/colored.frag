@@ -17,4 +17,3 @@ SurfaceData getSurfaceData(void)
 	
 	return sd;
 }
-
