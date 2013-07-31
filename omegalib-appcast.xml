@@ -5,7 +5,7 @@
 		<description>Most recent changes with links to updates.</description>
 		<language>en</language>
 		<item>
-			<title>Version 4.1</title>
+			<title>Version 4.1.1</title>
 			<pubDate>28 July 2013</pubDate>
 			<sparkle:releaseNotesLink>http://febret.github.io/omegalib/update.html</sparkle:releaseNotesLink>			
 			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.1.1" length="1600000" type="application/octet-stream"/>
