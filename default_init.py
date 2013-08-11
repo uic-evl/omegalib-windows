@@ -34,6 +34,10 @@ def _displayWand(value):
 	else:
 		getSceneManager().hideWand(0)
 		
+def _setSoundServerVolume( value ):
+	value = value - 30
+	globalVolumeLabel.setText("Global Volume: " + str(value))
+	soundEnv.setServerVolume(value)
 	
 def _onAppStart():
 	global mainmnu
@@ -69,7 +73,18 @@ def _onAppStart():
 	ss = sysmnu.addSlider(10, "_setCamSpeed(%value%)")
 	ss.getSlider().setValue(4)
 	ss.getWidget().setWidth(200)
-	
+
+	if( isSoundEnabled() ):
+		global soundEnv
+		global serverVolume
+		global globalVolumeLabel
+		
+		soundEnv = getSoundEnvironment()
+		globalVolumeLabel = sysmnu.addLabel("Global Volume: 0")
+		ss = sysmnu.addSlider(39, "_setSoundServerVolume(%value%)")
+		ss.getSlider().setValue(30)
+		ss.getWidget().setWidth(200)
+		
 	mi = sysmnu.addButton("Toggle Stereo", "toggleStereo()")
 	mi = sysmnu.addButton("Toggle Console", ":c")
 	mi = sysmnu.addButton("List Active Modules", "printModules()")
