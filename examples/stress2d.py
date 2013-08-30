@@ -20,7 +20,8 @@ def onEvent():
 	e = getEvent()
 	if(e.getServiceType() == ServiceType.Pointer and e.getType() == EventType.Move):
 		pos = e.getPosition()
-		s = Image.create(starImage, overlay)
+		s = Image.create(overlay)
+		s.setData(starImage)
 		s.setCenter(Vector2(pos.x, pos.y))
 		s.setBlendMode(WidgetBlendMode.BlendAdditive)
 		s.setAlpha(1.0)
