@@ -7,8 +7,8 @@
 		<item>
 			<title>Version 4.2-rc2</title>
 			<pubDate>29 August 2013</pubDate>
-			<sparkle:releaseNotesLink>http://febret.github.io/omegalib/update.html</sparkle:releaseNotesLink>			
-			<enclosure url="https://github.com/febret/omegalib-windows/archive/master.zip" sparkle:version="4.2-rc2" length="1600000" type="application/octet-stream"/>
+			<sparkle:releaseNotesLink>http://uic-evl.github.io/omegalib/update.html</sparkle:releaseNotesLink>			
+			<enclosure url="https://github.com/uic-evl/omegalib-windows/archive/master.zip" sparkle:version="4.2-rc2" length="1600000" type="application/octet-stream"/>
 		</item>
 	</channel>
 </rss>
