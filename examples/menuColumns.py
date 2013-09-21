@@ -2,9 +2,11 @@
 mm = MenuManager.createAndInitialize()
 menu2 = mm.getMainMenu().addSubMenu("TestMenu")
  
-# Get the menu container, set its layout to horizontal
+# Get the menu container, set its layout to horizontal. Set all elements 
+# aligned at the top of the container
 mc = menu2.getContainer()
 mc.setLayout(ContainerLayout.LayoutHorizontal)
+mc.setVerticalAlign(VAlign.AlignTop)
  
 # Create 3 vertical columns, add them to the menu
 c1 = Container.create(ContainerLayout.LayoutVertical, mc)
