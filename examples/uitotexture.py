@@ -7,7 +7,7 @@ from omegaToolkit import *
 # create a background plane
 background = PlaneShape.create(4.6, 2.8)
 background.setPosition(Vector3(0, 2, -3))
-background.setEffect('textured -v emissive -d examples/data/GradientBackground.jpg')
+background.setEffect('textured -v emissive -d data/GradientBackground.jpg')
 
 ui = UiModule.createAndInitialize()
 wf = ui.getWidgetFactory()
