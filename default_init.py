@@ -62,6 +62,7 @@ def _onAppStart():
 	mm.setMainMenu(mainmnu)
 	sysmnu = mainmnu.addSubMenu("System")
 	mi = sysmnu.addButton("Toggle freefly", ":freefly")
+	mi.getButton().setCheckable(True)
 	mi = sysmnu.addButton("Reset", "_resetCamera()")
 	mi = sysmnu.addButton("Auto Near / Far", "_autonearfar(%value%)")
 	mi.getButton().setCheckable(True)
@@ -93,7 +94,10 @@ def _onAppStart():
 		
 		ss.getSlider().setValue(value)
 		
-	mi = sysmnu.addButton("Toggle Stereo", "toggleStereo()")
+	mi = sysmnu.addButton("Enable Stereo", "toggleStereo()")
+	mi.getButton().setCheckable(True)
+	mi.getButton().setChecked(isStereoEnabled())
+	
 	mi = sysmnu.addButton("Toggle Console", ":c")
 	mi = sysmnu.addButton("List Active Modules", "printModules()")
 	mi = sysmnu.addButton("Exit omegalib", "_shutdown()")
